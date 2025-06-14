@@ -1,0 +1,17 @@
+# Program to read and print employee details
+emp_name = input("Enter Employee Name: ")
+emp_number = input("Enter Employee Number: ")
+designation = input("Enter Designation: ")
+salary = float(input("Enter Salary: "))
+dept_name = input("Enter Department Name: ")
+dept_number = input("Enter Department Number: ")
+manager_name = input("Enter Manager Name: ")
+
+print("\n--- Employee Details ---")
+print(f"Name: {emp_name}")
+print(f"Employee Number: {emp_number}")
+print(f"Designation: {designation}")
+print(f"Salary: {salary}")
+print(f"Department Name: {dept_name}")
+print(f"Department Number: {dept_number}")
+print(f"Manager Name: {manager_name}")
